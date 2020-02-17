@@ -2,7 +2,7 @@
 
 function main {
   source ../venv/bin/activate
-  exec python "$@"
+  exec aws "$@"
 }
 
 main "$@"
